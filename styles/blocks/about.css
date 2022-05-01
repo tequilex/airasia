@@ -8,7 +8,7 @@
   width: 785px;
   height: 455px;
   position: absolute;
-  background: url(/img/about-mountains.png);
+  background: url(../../img/about-mountains.png);
 }
 
 .about__text {
