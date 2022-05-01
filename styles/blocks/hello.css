@@ -1,0 +1,43 @@
+.hello {
+  height: 400px;
+  margin-bottom: 176px;
+}
+
+.hello__title {
+  width: 511px;
+  height: 197px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 94px;
+  margin-bottom: 24px;
+}
+
+.hello__subtitle {
+  width: 196px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 168px;
+  height: 55px;
+  cursor: pointer;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px ;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-bottom: 246px;
+}
+
+.button:hover {
+  background: #DA0100;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+  border-radius: 35px;
+  color: #fff;
+}
