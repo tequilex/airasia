@@ -13,7 +13,7 @@
 }
 
 .title--fire:after {
-  content: url(././img/fire.png);
+  content: url(../../img/fire.png);
 } 
 
 .offers__list {
