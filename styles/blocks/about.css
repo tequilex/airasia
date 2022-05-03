@@ -1,0 +1,37 @@
+.about {
+  height: 611px;
+}
+
+.about__img {
+  border-radius: 5px;
+}
+
+.about__back {
+  margin-left: 354px;
+  margin-top: -406px;
+  width: 785px;
+  height: 455px;
+  position: absolute;
+  background: url(../../img/about-mountains.png);
+  border-radius: 5px;
+}
+
+.about__text {
+  padding: 70px 202px 66px 81px;
+}
+
+.title--dark {
+  margin-bottom: 44px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+}
+
+p {
+  margin-bottom: 44px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #060606;
+}
