@@ -1,0 +1,68 @@
+.footer__conteiner {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 42px;
+  padding-bottom: 55px;
+}
+
+.menu--footer {
+  margin-top: 0;
+}
+
+.footer__list {
+  margin-left: 186px;
+  margin-top: 7px;
+  position: absolute;
+}
+
+.footer__item {
+  margin-right: 5px;
+}
+
+.social__logo {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.footer__item--icon--telegram .social__logo {
+  background-image: url(../../img/telegram.png);
+}
+
+.footer__item--icon--telegram .social__logo:hover {
+  background-image: url(../../img/telegram-hover.png);
+}
+
+.footer__item--icon--vk .social__logo {
+  background-image: url(../../img/vk.png);
+}
+
+.footer__item--icon--vk .social__logo:hover {
+  background-image: url(../../img/vk-hover.png);
+}
+
+.footer__item--icon--facebook .social__logo {
+  background-image: url(../../img/facebook.png);
+}
+
+.footer__item--icon--facebook .social__logo:hover {
+  background-image: url(../../img/facebook-hover.png);
+}
+
+.footer__item--icon--instagram .social__logo {
+  background-image: url(../../img/instagram.png);
+}
+
+.footer__item--icon--instagram .social__logo:hover {
+  background-image: url(../../img/instagram-hover.png);
+}
+
+.contacts__call {
+  padding-left: 28px;
+  width: 163px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+}
