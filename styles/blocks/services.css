@@ -1,0 +1,144 @@
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.top-line {
+  background: url(../../img/headline-services.png) center top no-repeat;
+  overflow: hidden;
+  min-height: 412px;
+}
+
+.hello-services__title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  margin-top: 96px;
+  margin-bottom: 108px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__link, .breadcrumbs__active-link {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+  color: #9A9A9A;
+}
+
+.breadcrumbs__separator {
+  color: #9A9A9A;
+}
+
+.breadcrumbs__active-link {
+  margin-left: 4px;
+  font-weight: 700;
+}
+
+.offers-services {
+  background: #fff;
+  min-height: 994px;
+  
+}
+
+.offers-services__list {
+  margin-top: 0px;
+  padding-top: 101px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 21px;
+}
+
+.offers-services__item {
+  margin-bottom: 41px;
+  display: flex;
+}
+
+.offers-services__content {
+  padding: 15px 0px 15px 59px;
+}
+
+.offers-services__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+  margin-bottom: 34px;
+}
+
+.offers-services__button {
+  padding-top: 35px;
+}
+
+.button--light--services {
+  padding: 17px 39px;
+}
+
+.paginator--theme--dark {
+  color: #000;
+  margin-left: 29px;
+}
+
+.paginator--theme--dark .paginator__item--active .paginator__link {
+  color: #fff;
+  background: #F5170E;
+}
+
+.paginator--theme--dark .paginator__link:hover {
+  color: #fff;
+  background: #F5170E;
+}
+
+.partners {
+  background: #F4F5F5;
+  min-height: 537px;
+}
+
+.partners__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1A1B1E;
+  padding-top: 93px;
+  padding-bottom: 95px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 80px;
+}
+
+.partner__item:nth-child(4n) {
+  justify-content: flex-end;
+}
+
+.partner__link {
+  filter: grayscale(1);
+}
+
+.partner__link:hover {
+  filter: grayscale(0);
+}
