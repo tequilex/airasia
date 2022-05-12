@@ -1,0 +1,48 @@
+.welcome-page-wrapper {
+  height: 960px;
+  background: url(../../img/bg.png) center top 0 no-repeat;
+}
+
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 356px;
+  align-items: center;
+  animation: emersion 5s;
+}
+
+
+.welcome__shades {
+  position: absolute;
+}
+
+.welcome__logo {
+  padding-top: 66px;
+  position: relative;
+}
+
+.welcome__text {
+  position: relative;
+  margin-bottom: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.welcome__button {
+  position: relative;
+}
+
+.button--wide {
+  padding: 18px 60px;
+}
+
+@keyframes emersion {
+  from {
+    
+  }
+
+  to {
+    
+  }
+}
